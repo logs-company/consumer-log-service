@@ -25,6 +25,7 @@ repositories {
 }
 
 dependencies {
+	implementation(files("libs/log-library-math012-1.0-SNAPSHOT.jar"))
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.kafka:spring-kafka")
