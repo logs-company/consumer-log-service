@@ -9,7 +9,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.OffsetDateTime;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,6 +23,6 @@ public class LogEntity {
     private Long id;
     private String service;
     private String type;
-    private OffsetDateTime timestamp;
+    private LocalDateTime timestamp;
     private String message;
 }
