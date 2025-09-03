@@ -21,6 +21,7 @@ public class LogEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String service;
     private String type;
     private OffsetDateTime timestamp;
     private String message;
